@@ -1,12 +1,11 @@
 const mensaje = `Gracias a unfusible comenzó una historia que incluye nombres falsos, regaños en puestos de quesadillas, salidas a escondidas, chocolates y dulces inventados.
 
-Ahora te veo en las bugambilias, Humbe me habla de ti y me doy cuenta de que eres todo lo que quiero.
+Ahora te veo en las bugambilias, Humbe y Jorge Cuellar me hablan de ti y me doy cuenta de que eres todo lo que quiero.
+Quiero hacer todo especial para ti, te seguiré enamorando y por que quiero que siempre seas mia.
 
-Nada me robará la oportunidad de hacer algo especial para ti, te seguiré enamorando y haré que estés segura de estar con el mejor, porque lo seré por ti.
+Te amo y amo todo lo que hemos pasado.
 
-Quiero que sepas que te amo y amo todo lo que hemos pasado.
-
-Hay preguntas importantes que sé que tendré que hacerte, y esta por poco no la logro, ¿me la respondes?
+Hay preguntas importantes que sé que tendré que hacerte, y esta por poco no la logro ¿me la respondes?
 `;
 
 const carta = document.getElementById("carta");
