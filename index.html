@@ -1,1 +1,78 @@
-<!-- Archivo temporal para iniciar el repositorio -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para Génesis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- PANTALLA QUIZ INICIAL -->
+  <div id="pantalla-quiz" class="pantalla">
+    <h1 class="titulo-principal">Hola, tengo cosas que decirte</h1>
+    <img src="Rey_acostado.gif" class="imagen-corona" />
+    <h2>Pero primero, unas preguntas</h2>
+    <form id="quizForm">
+      <p>¿Cual es tu nombre real?</p>
+      <input type="text" id="nombre" placeholder="Ya sé que no es Abril" required /><br><br>
+
+      <p>¿Qué talla de anillo eres?</p>
+      <input type="text" id="talla" placeholder="Es pa' una tarea" required /><br><br>
+
+      <p>¿Cómo se llamaban los chocolates que te di en el parque?</p>
+      <input type="text" id="chocolates" placeholder="..." required /><br><br>
+
+      <p>¿Por qué objeto empezó nuestra historia?</p>
+      <input type="text" id="objeto" placeholder="..." required /><br><br>
+
+      <p>¿Le vas a bajar a los chistes rancios?</p>
+      <button type="button" class="opcion" data-correct="true">Sí por que te amo</button>
+      <button type="button" class="opcion" data-correct="false">No, quiero que sufras pa</button>
+
+      <br><br>
+      <button type="submit" id="btnEnviarQuiz">Enviar</button>
+      <p id="mensajeQuiz"></p>
+    </form>
+  </div>
+
+  <!-- Pantalla 1: GIF saludo + botón -->
+  <div id="pantalla-1" class="pantalla oculta">
+    <img src="saludo_de_Rey.gif" alt="Saludo de Rey" class="gif-inicial" />
+    <h1>Te hice una carta</h1>
+    <h2>Lee con atención</h2>
+    <button id="btnLeer">Leer</button>
+  </div>
+
+  <!-- Pantallas de recuerdo -->
+  <div id="pantalla-2" class="pantalla oculta">
+    <h1>¿Recuerdas cuando estuvimos sentados platicando en la joyería?</h1>
+  </div>
+  <div id="pantalla-3" class="pantalla oculta">
+    <h1>¿Te acuerdas cuando me regalaste un corazón de resistencias?</h1>
+  </div>
+  <div id="pantalla-4" class="pantalla oculta">
+    <h1>¿Te acuerdas de las bugambilias que robé?</h1>
+  </div>
+
+  <!-- Pantalla carta -->
+  <div id="pantalla-carta" class="pantalla oculta">
+    <div class="animacion">
+      <img src="Stickman.gif" alt="stickman caminando" class="personaje" />
+    </div>
+    <div class="carta">
+      <div id="carta"></div>
+      <button id="btnFinal" style="display: none;">Continuar</button>
+    </div>
+  </div>
+
+  <!-- Pantalla final después de "sí quiero" -->
+  <div id="pantalla-final" class="pantalla oculta">
+    <h1>¿Te gustaría que te regale unos chetos?</h1>
+    <p style="font-size: 1.2rem;">y... ¿quieres ser mi novia?</p>
+    <button id="btnSiQuiero">Sí quiero</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
